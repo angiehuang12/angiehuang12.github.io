@@ -10,6 +10,10 @@ body, ul, li {
   margin: 0 auto;
 }
 
+#main header .wrapper nav h2 {
+  text-indent: -20000px;
+}
+
 #main header .wrapper nav ul {
   list-style-type: none;
 }
