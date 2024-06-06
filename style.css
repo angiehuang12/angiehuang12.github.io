@@ -10,13 +10,115 @@ body, ul, li {
   margin: 0 auto;
 }
 
+#main header .wrapper nav ul {
+  list-style-type: none;
+}
+
+#main header .wrapper nav ul li {
+  display: inline-block;
+}
+
+#main header .wrapper nav {
+  text-align: center;
+}
+
+#main header .wrapper nav li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+#main header .wrapper nav li a:hover {
+  color: #555;
+  transition: 0.3s;
+}
+
+#main header .wrapper i {
+  float: right;
+  color: black;
+  margin-top: -15px;
+  margin-right: 20px;
+}
+
+#main {
+  background: url(https://cdn.pixabay.com/photo/2021/11/10/18/54/mathematics-6784625_1280.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: -30px;
+}
+
+.caption {
+  text-align: center;
+  color: black;
+  padding-top: 100px;
+  height: 400px;
+}
+
+.caption button {
+  border:none;
+  outline:none;
+  background: rgb(218, 112, 116);
+  color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  font-size: 14px;
+  text-decoration:none;
+	padding:0 35px;
+	line-height:32px;
+	height: auto;
+	display:inline-block;
+	text-align:center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.caption button:hover {
+  background: rgba(218, 112, 116, 0.76);
+  transition: 0.3s;
+}
+
+footer ul {
+  float: left;
+  width: 20%;
+  padding: 50px 1%;
+  list-style-type: none;
+}
+
+footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #777;
+}
+
+footer li a:hover {
+  color: #555;
+}
+
+footer li {
+  line-height: 1.8em;
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
 #copyright {
   background: black;
-  color: white;
+  color: #555;
   margin-bottom:-20px;
   line-height: 80px;
   text-align: center;
   font-size: 12px;
   font-style: italic;
   font-family: "Playfair Display", serif;
+  font-weight: lighter;
 }
