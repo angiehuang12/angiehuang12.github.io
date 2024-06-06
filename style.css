@@ -10,8 +10,14 @@ body, ul, li {
   margin: 0 auto;
 }
 
+#main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 #main header .wrapper nav h2 {
-  text-indent: -20000px;
+  text-indent: -10000px;
 }
 
 #main header .wrapper nav ul {
@@ -43,13 +49,13 @@ body, ul, li {
   transition: 0.3s;
 }
 
-#main header .wrapper nav ul li:nth-child(2) {
-  margin: 0 60px;
-}
-
 #main header .wrapper nav li a:hover {
   color: #555;
-  transition: 0.3s;
+  transition: 0.4s;
+}
+
+#main header .wrapper nav ul li:nth-child(2) {
+  margin: 0 60px;
 }
 
 #main header .wrapper i {
@@ -60,8 +66,10 @@ body, ul, li {
 }
 
 #main {
-  background-color: white;
-  margin-top: -30px;
+  background-color:white;
+  /* background: url(https://cdn.pixabay.com/photo/2021/11/10/18/54/mathematics-6784625_1280.jpg) no-repeat center center;
+  background-size: cover; */
+  margin-top: -70px;
 }
 
 .caption {
@@ -71,14 +79,26 @@ body, ul, li {
   height: 400px;
 }
 
+.caption h1 {
+  font-size: 54px;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+.caption p {
+  font-size: 12px;
+  line-height: 1.6em;
+  margin-bottom: 30px;
+}
+
 .caption button {
   border:none;
   outline:none;
   background: rgb(218, 112, 116);
   color: white;
-  border-radius: 16px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
+  border-radius: 16px;
   font-size: 14px;
   text-decoration:none;
 	padding:0 35px;
@@ -87,19 +107,65 @@ body, ul, li {
 	display:inline-block;
 	text-align:center;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .caption button:hover {
   background: rgba(218, 112, 116, 0.76);
-  transition: 0.3s;
+  transition: 0.4s;
 }
+
+#row ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+#row ul li {
+  float: left;
+  width: 25%;
+}
+
+#row li img {
+  width: 100%;
+}
+
+#row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
 
 footer ul {
   float: left;
-  width: 46%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 46%; /* Ensure full width */
   padding: 50px 1%;
   list-style-type: none;
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center text within each list item */
+}
+
+footer ul li {
+  margin: 0 20px; /* Adjust margin between items as needed */
+}
+
+footer li {
+  line-height: 1.8em;
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
 }
 
 footer:after {
@@ -113,17 +179,17 @@ footer li a {
   color: #777;
 }
 
+
 footer li a:hover {
   color: #555;
 }
 
-footer li {
-  line-height: 1.8em;
-  font-size: 14px;
-  font-style: italic;
-  color: #777;
-  font-family: "Playfair Display", serif;
-  font-weight: lighter;
+footer li h3{
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+  font-style: normal;
+  color: black;
 }
 
 #copyright {
