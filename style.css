@@ -99,7 +99,6 @@ body, ul, li {
   -moz-border-radius: 16px;
   border-radius: 16px;
   font-size: 14px;
-  font-family: "Playfair Display";
   text-decoration:none;
 	padding:0 35px;
 	line-height:32px;
@@ -213,7 +212,7 @@ footer li h3{
 
 #copyright {
   background: black;
-  color: #555;
+  color: #878787;
   margin-bottom:-20px;
   line-height: 80px;
   text-align: center;
