@@ -75,7 +75,7 @@ body, ul, li {
 .caption {
   text-align: center;
   color: black;
-  padding-top: 100px;
+  padding-top: 150px;
   height: 400px;
 }
 
@@ -115,21 +115,21 @@ body, ul, li {
   transition: 0.4s;
 }
 
-#row ul {
+#imgs ul {
   list-style-type: none;
   width: 100%;
 }
 
-#row ul li {
+#imgs ul li {
   float: left;
   width: 25%;
 }
 
-#row li img {
+#imgs li img {
   width: 100%;
 }
 
-#row:after {
+#imgs:after {
   content: "";
   display: block;
   clear: both;
