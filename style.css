@@ -22,6 +22,10 @@ body, ul, li {
 
 #main header .wrapper nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 #main header .wrapper nav ul li {
@@ -47,15 +51,12 @@ body, ul, li {
   font-weight: bold;
   font-size: 12px;
   transition: 0.3s;
+  margin: 0 30px;
 }
 
 #main header .wrapper nav li a:hover {
   color: #555;
   transition: 0.4s;
-}
-
-#main header .wrapper nav ul li:nth-child(2) {
-  margin: 0 60px;
 }
 
 #main header .wrapper i {
@@ -117,7 +118,7 @@ body, ul, li {
 .info {
   text-align: center;
   color: black;
-  padding-top: 10px;
+  padding-top: 400px;
   height: 200px;
 }
 
@@ -148,6 +149,28 @@ body, ul, li {
 }
 
 #imgs:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.people ul {
+  list-style-type:none;
+  width:100%;
+}
+
+.people ul li {
+  display: block;
+  margin-left:93px;
+  float:left;
+  width: 25%;
+}
+
+.people li img {
+  width:100%;
+}
+
+.people:after {
   content: "";
   display: block;
   clear: both;
@@ -214,7 +237,7 @@ footer li h3{
   background: black;
   color: #878787;
   margin-bottom:-20px;
-  line-height: 80px;
+  line-height: 60px;
   text-align: center;
   font-size: 12px;
   font-style: italic;
