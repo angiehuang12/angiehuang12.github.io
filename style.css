@@ -173,7 +173,7 @@ body, ul, li {
 
 .people ul li {
   display: block;
-  margin-left:93px;
+  margin-left:6.2%;
   float:left;
   width: 25%;
 }
@@ -316,6 +316,103 @@ footer li h3{
   padding-bottom: 15px;
   font-style: normal;
   color: black;
+}
+
+/* iPad view */
+@media screen and (min-width: 769px) and (max-width: 890px) {
+  .person img {
+    display:block;
+    margin:0 auto;
+    width:60%;
+  }
+
+  .person p {
+    display:block;
+    margin:0 auto;
+    width:60%;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1.6em;
+    padding-top:10px;
+  }
+
+  .people {
+    display:none;
+  }
+
+  .persons {
+    display:block;
+    text-align:center;
+  }
+
+  .persons img {
+    display:block;
+    margin:0 auto;
+    width:60%;
+    padding-top:80px;
+  }
+
+  .persons p {
+    display:block;
+    margin:0 auto;
+    width:60%;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1.6em;
+    padding-top:10px;
+  }
+
+  .caption {
+    text-align: center;
+    color: black;
+    padding-top: 150px;
+    padding-bottom:200px;
+    height: 400px;
+  }
+
+  .caption p {
+    display:block;
+    margin:0 auto;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    width:80%;
+  }
+
+  .info {
+    text-align: center;
+    color: black;
+    padding-top: 400px;
+    padding-bottom:200px;
+    height: 200px;
+  }
+
+  .info p {
+    display:block;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    width:80%;
+  }
+
+  footer ul {
+    clear:both;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 90%;
+    padding: 50px 1%;
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text within each list item */
+  }
+
+  .extra {
+    display:block;
+    padding-top: 400px;
+    padding-bottom:1500px;
+  }
 }
 
 /* Mobile view */
@@ -582,7 +679,7 @@ footer li h3{
 
 #mains {
   background: url(https://cdn.pixabay.com/photo/2021/08/31/00/04/sunrise-6587391_1280.png) no-repeat center center;
-/*   background-color: #FFBCA6; */
+  /* background-color: #FFBCA6; */
   background-size: cover;
   margin-top: -70px;
 }
