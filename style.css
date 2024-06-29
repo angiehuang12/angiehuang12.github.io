@@ -12,6 +12,10 @@ body, ul, li {
   display:none;
 }
 
+.extras {
+  display:none;
+}
+
 .persons {
   display:none;
 }
@@ -413,6 +417,12 @@ footer li h3{
     padding-top: 400px;
     padding-bottom:1500px;
   }
+
+  .extras {
+    display:block;
+    padding-top: 200px;
+    padding-bottom:300px;
+  }
 }
 
 /* Mobile view */
@@ -420,11 +430,11 @@ footer li h3{
   #mains {
     padding-bottom:1200px;
   }
-  
+
   .wrapper {
     display:none;  
   }
-  
+
   .hamburger-lines {
     display: block;
   }
@@ -640,7 +650,7 @@ footer li h3{
     padding-bottom:200px;
     height: 200px;
   }
-  
+
   .info p {
     display:block;
     margin:0 auto;
@@ -667,7 +677,13 @@ footer li h3{
     padding-top: 400px;
     padding-bottom:200px;
   }
-  
+
+  .extras {
+    display:block;
+    padding-top: 100px;
+    padding-bottom:50px;
+  }
+
 }
 
 #main {
