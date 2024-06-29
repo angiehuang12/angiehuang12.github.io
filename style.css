@@ -194,6 +194,30 @@ body, ul, li {
   clear: both;
 }
 
+.peoplee ul {
+  list-style-type:none;
+  width:100%;
+}
+
+.peoplee ul li {
+  display: block;
+  margin-left:16.5%;
+  float:left;
+  width: 25%;
+}
+
+.peoplee li img {
+  width:100%;
+  display: block;
+  margin:0 auto;
+}
+
+.peoplee:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .caption {
   text-align: center;
   color: black;
@@ -341,6 +365,10 @@ footer li h3{
   }
 
   .people {
+    display:none;
+  }
+
+  .peoplee {
     display:none;
   }
 
@@ -601,6 +629,10 @@ footer li h3{
   }
 
   .people {
+    display:none;
+  }
+
+  .peoplee {
     display:none;
   }
 
