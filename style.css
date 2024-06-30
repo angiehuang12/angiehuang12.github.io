@@ -194,6 +194,29 @@ body, ul, li {
   clear: both;
 }
 
+.peoplie ul {
+  list-style-type:none;
+  width:100%;
+}
+
+.peoplie ul li {
+  display: block;
+  margin:0 auto;
+  width: 25%;
+}
+
+.peoplie li img {
+  width:100%;
+  display: block;
+  margin:0 auto;
+}
+
+.peoplie:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .peoplee ul {
   list-style-type:none;
   width:100%;
@@ -365,6 +388,10 @@ footer li h3{
   }
 
   .people {
+    display:none;
+  }
+
+  .peoplie {
     display:none;
   }
 
@@ -629,6 +656,10 @@ footer li h3{
   }
 
   .people {
+    display:none;
+  }
+
+  .peoplie {
     display:none;
   }
 
