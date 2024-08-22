@@ -301,6 +301,12 @@ a {
   height: 200px;
 }
 
+.infoo {
+  text-align: center;
+  color: black;
+  height: 200px;
+}
+
 .info h1 {
   font-size: 36px;
   font-family: "Playfair Display", serif;
@@ -308,6 +314,21 @@ a {
 }
 
 .info p {
+  display:block;
+  margin:0 auto;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-bottom: 30px;
+  width:50%;
+}
+
+.infoo h1 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+.infoo p {
   display:block;
   margin:0 auto;
   font-size: 16px;
@@ -452,6 +473,23 @@ footer li h3{
   }
 
   .info p {
+    display:block;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    width:80%;
+  }
+
+  .infoo {
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    padding-bottom:200px;
+    height: 200px;
+  }
+
+  .infoo p {
     display:block;
     margin:0 auto;
     font-size: 16px;
@@ -720,6 +758,22 @@ footer li h3{
   }
 
   .info p {
+    display:block;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    width:80%;
+  }
+
+  .infoo {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    height: auto;
+  }
+
+  .infoo p {
     display:block;
     margin:0 auto;
     font-size: 16px;
